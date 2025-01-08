@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulated TV Remote Control</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="remote">
+        <div class="remote-screen">
+            <h2>TV Screen</h2>
+            <div id="screen-output">
+                <p id="tv-status">Power: OFF</p>
+                <p id="channel">Channel: 1</p>
+                <p id="volume">Volume: 10</p>
+            </div>
+        </div>
+
+        <div class="remote-buttons">
+            <button class="button" id="power">Power</button>
+            <button class="button" id="volume-up">Volume Up</button>
+            <button class="button" id="volume-down">Volume Down</button>
+            <button class="button" id="channel-up">Channel Up</button>
+            <button class="button" id="channel-down">Channel Down</button>
+            
+            <div class="number-pad">
+                <button class="button number" data-number="1">1</button>
+                <button class="button number" data-number="2">2</button>
+                <button class="button number" data-number="3">3</button>
+                <button class="button number" data-number="4">4</button>
+                <button class="button number" data-number="5">5</button>
+                <button class="button number" data-number="6">6</button>
+                <button class="button number" data-number="7">7</button>
+                <button class="button number" data-number="8">8</button>
+                <button class="button number" data-number="9">9</button>
+                <button class="button number" data-number="0">0</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
